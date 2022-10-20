@@ -11,6 +11,9 @@ matches against a random opponent.
 
 ![On Policy First Visit MC](https://marcinbogdanski.github.io/rl-sketchpad/RL_An_Introduction_2018/assets/0504_OnPolicy_MC_Ctrl.png)
 
+*From Sutton and Barto (2018) _Reinforcement Learning: An Introduction_, chapter 5.4*
+
+
 The algorithm had no model of TicTacToe and discovered the best
 winning strategy play-by-play by discounting a given reward (-1 for a loss / 0 for a draw / 1 for a win) over all previous in-game actions after each episode.
 
