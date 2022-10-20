@@ -105,14 +105,14 @@ function App() {
         <p>
           The source code for training the algorithm is written in Python and
           can be found{" "}
-          <a href="https://github.com/lukaskuhn-lku">
+          <a href="https://github.com/lukaskuhn-lku/reinforced-tictactoe/tree/master/training">
             <b>here.</b>
           </a>
         </p>
         <p>
           The website has been written in JavaScript with the React framework
           and the source code can be found{" "}
-          <a href="https://github.com/lukaskuhn-lku">
+          <a href="https://github.com/lukaskuhn-lku/reinforced-tictactoe/tree/master/src">
             <b>here.</b>
           </a>
         </p>
