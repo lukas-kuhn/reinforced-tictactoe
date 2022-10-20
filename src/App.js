@@ -96,7 +96,10 @@ function App() {
           <br />
           The opponent AI is based on a reinforcement learning algorithm
           (On-policy first-visit Monte Carlo) that has been trained on 1 million
-          matches against a random opponent.
+          matches against a random opponent.<br/><br/>
+          <img src="https://marcinbogdanski.github.io/rl-sketchpad/RL_An_Introduction_2018/assets/0504_OnPolicy_MC_Ctrl.png" height={400}></img><br/>
+          <i>From Sutton and Barto (2018) Reinforcement Learning: An Introduction, chapter 5.4</i>
+          <br/>
           <br /> The algorithm had no model of TicTacToe and discovered the best
           winning strategy play-by-play by discounting a given reward{" "}
           <i>(-1 for a loss / 0 for a draw / 1 for a win)</i> over all previous
