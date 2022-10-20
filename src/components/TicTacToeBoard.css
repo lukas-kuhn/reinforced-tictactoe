@@ -1,0 +1,74 @@
+.main-grid {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    width: 360px;
+    gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+.main-grid > div {
+    font-family: "Helvetica";
+    padding: 10px;
+    min-height: 120px;
+    background-color: #ccc;
+    text-align: center;
+    font-size: 300%;
+
+    font-weight: bold;
+    color:rgb(87, 87, 87);
+
+    display: flex;
+    border-radius: 10px;
+    align-items:center;
+    justify-content:center;
+}
+
+.main-grid > .playable:hover {
+    background-color: rgb(204, 246, 207) !important;
+}
+
+.main-grid > div:hover {
+    background-color: rgb(255, 194, 194) !important;
+}
+
+
+.small-grid {
+    margin-left: auto;
+    margin-right: auto;
+
+    display: grid;
+    width: 180px;
+    gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+.small-grid > div {
+    font-family: "Helvetica";
+    padding: 5px;
+    max-width: 60;
+    min-height: 60px;
+    background-color: #ccc;
+    text-align: center;
+    font-size: 150%;
+
+    font-weight: bold;
+    color:rgb(87, 87, 87);
+
+    display: flex;
+    border-radius: 10px;
+    align-items:center;
+    justify-content:center;
+}
+
+.colored{
+    background-color: rgba(199, 192, 184, 0.933) !important;
+}
+
+.small-grid .highlight-play{
+    color:rgb(246, 255, 0) !important;
+}
+
+.main-grid .highlight-play{
+    color:rgb(186, 15, 15) !important;
+}

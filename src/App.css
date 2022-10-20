@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(223, 223, 223);
+}
+
+.winningChance{
+    font-size: 120%;
+    margin: 10px;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    align-content: center;
+}
+
+.game{
+    text-align: center;
+    align-content: center;
+}
+
+.ai-moves{
+    text-align: center;
+    align-content: center;
+}
+
+.about{
+    text-align: center;
+    align-content: center;
+    background-color: #ccc;
+    border-radius: 12px;
+    padding: 24px;
+}
