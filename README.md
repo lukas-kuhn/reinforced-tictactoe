@@ -1,6 +1,6 @@
 # Reinforced TicTacToe
 
-# [Test it!](https://lukaskuhn-lku.github.io/reinforced-tictactoe/)
+# [Test it!](https://lukas-kuhn.github.io/reinforced-tictactoe/)
 
 ![Reinforced TicTacToe](./images/main.png "Reinforced TicTacToe")
 
